@@ -1,0 +1,53 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+ }
+  
+ td{
+     padding: 50px;
+     border-style: solid;
+     background-color: rgb(221, 239, 255);
+ }
+  
+ #aux{
+     margin-left: 10%;
+ }
+  
+ th {
+    
+     font-weight: 1000;
+     height: 70px;
+     background-color:#650c88;
+     border: none;
+  
+ }
+  
+ table,
+ th,
+ td {
+     border: 1px solid;
+     text-align: center;
+    border-collapse: collapse;
+ }
+.select{
+    text-align: center;
+    background-color: #650c88;
+    color: white;
+    padding: 10px;
+}
+#veiculos{
+    margin-top:10px ;
+    background-color: #38040e;
+    padding: 20px;
+    align-items: center;
+   
+}
+option,select,input{
+    border-radius: 40px;
+    background-color:white ;
+}
+#mark{
+    margin-left: 400px;
+}
+
+ 

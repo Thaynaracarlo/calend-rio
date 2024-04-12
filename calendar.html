@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="calendar.js"></script>
+    <link rel="stylesheet" href="calendar.css" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: rgb(230, 227, 241);">
+
+  
+ 
+      
+    <div id="aux">
+        <div id="mark">
+          <h1>Calendário</h1>
+          
+      </div>
+      <div class="tabela">
+        <table class="calendar" id="calendar">
+
+          <thead>
+              <tr>
+                  <th>Dom</th>
+                  <th>Seg</th>
+                  <th>Ter</th>
+                  <th>Qua</th>
+                  <th>Qui</th>
+                  <th>Sex</th>
+                  <th>Sab</th>
+                  <th>Dom</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>1</td>
+                  <td>2</td>
+                  <td>3</td>
+                  <td>4</td>
+                  <td>5</td>
+              </tr>
+              <tr>
+                  <td>6</td>
+                  <td>7</td>
+                  <td>8</td>
+                  <td>9</td>
+                  <td>10</td>
+                  <td>11</td>
+                  <td>12</td>
+                  <td>13</td>
+              </tr>
+              <tr>
+                  <td>14</td>
+                  <td>15</td>
+                  <td>16</td>
+                  <td>17</td>
+                  <td>18</td>
+                  <td>19</td>
+                  <td>20</td>
+                  <td>21</td>
+              </tr>
+              <tr>
+                  <td>22</td>
+                  <td>23</td>
+                  <td>24</td>
+                  <td>25</td>
+                  <td>26</td>
+                  <td>27</td>
+                  <td>28</td>
+                  <td>29</td>
+              </tr>
+              <tr>
+                  <td>30</td>
+                  <td>31</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+              </tr>
+          </tbody>
+      </table>
+      <br>
+          </div>
+      </div>
+    </div>
+
+  </header>
+
+  
+  <div class="select">
+    <h1>Agendar Frete</h1>
+
+    <label for="color">Escolha uma cor:</label>
+    <select id="color" name="color">
+        <option value="#4361ee">Azul</option>
+        <option value="PaleGreen">Verde</option>
+        <option value="LightPink">Rosa</option>
+        <option value="Yellow">Amarelo</option>
+    </select>
+    <label for="day">Escolha o dia:</label>
+    <input type="number" id="day" name="day" min="1" max="31">
+    <input type="submit" onclick="colorirDia()">
+    <p><b>O veículo Azul não pode fazer mais de um frete no mesmo dia;</b></p>
+    <p><b>Cada veículo pode realizar 3 fretes por mês;</b></p>
+   <p><b>Azul para o veículo 1 </b></p> 
+   <p><b>Verde para o veículo 2 </b></p>
+   <p><b> Rosa para o veículo 3</b></p>
+   <p><b>Roxo para o veículo 4</b></p> 
+</div>
+</body>
+
+</html>
